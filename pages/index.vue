@@ -45,6 +45,11 @@
 <script>
 export default {
   name: "IndexPage",
+  head() {
+    return {
+      title: "Simple ToDos",
+    };
+  },
   data() {
     return {
       task: [],
